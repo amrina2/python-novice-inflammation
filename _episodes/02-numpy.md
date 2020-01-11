@@ -132,6 +132,18 @@ print(data)
 ~~~
 {: .output}
 
+When we have a lengthy data set, we could print only the first or the last five rows as follows:
+# Printing the first five rows of the data
+data.head()
+# Printing the last five rows of the data
+data.tail()
+
+We could also speecify a number of rows to print
+# Printing the first ten rows of the data
+data.head(10)
+# Printing the last ten rows of the data
+data.tail(10)
+
 Now that the data are in memory,
 we can manipulate them.
 First,
